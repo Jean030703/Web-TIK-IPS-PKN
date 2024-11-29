@@ -1,0 +1,226 @@
+body{
+    background-image: url(water2.jpg);
+}
+.header{
+    width: 1280;
+    position: absolute;
+    margin-block-start: 0px;
+    float: inline-start;
+    height: 200px;
+    top: 0;
+}
+/* Kode Css Navigator */
+ul{
+    list-style: none;
+    background: aliceblue;
+    padding: 0px 0px;
+    margin: 120px 0px;
+    position: absolute;
+    width: 1280px;
+    height: 70px;
+    float: none;
+    top: 0;
+}
+ul li{
+    display: inline-block;
+    position:relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+ul a:hover{
+    background-color: orangered;
+}
+/* Kode CSS dropdown */
+ul li ul .dropdown li{
+    display:block;
+}
+ul li ul.dropdown {
+    background: aliceblue;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+li.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    background: rgb(55,38,26);
+    background: linear-gradient(167deg, rgba(55,38,26,1) 35%, rgba(32,22,15,1) 100%);
+    border-radius: 20px;
+    text-align: center;
+    min-height: 200px;
+    width: 220px;
+    z-index: 1;
+    left: 10px; 
+    padding: 2px 2px;
+}
+.dropdown-content a{
+    margin-top: 15px;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+.dropdown-content a:hover{
+    background-color:#18110b;
+    border-radius: 15px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+/* Kode Css Side bar */
+.column{
+    float: left;
+    padding: 0px 10px;
+    margin: 70px;
+}
+/* Left Column */
+.column.side{
+    margin: 170px 0px;
+    width: 250px;
+    height: 400px;
+    background-color: orangered;
+}
+/* Kode Css Middle Bar */
+.column.middle{
+    margin: 200px 0px;
+    width: 990px;
+    height: 400px;
+    background-color: aliceblue;
+    padding: 0px 10px;
+    width: 70%;
+    height: 400px;
+}
+ol.a li{
+    list-style-type:square;
+    background-color:orangered;
+    margin: 15px 0px;
+    padding: 5px;
+    width: 70%;
+    float: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: paleturquoise;
+}
+.column{
+    float: left;
+    width: 60%;
+    padding: 0px;
+    margin: 70px;
+    background-color: lightpink;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ol.z li{
+    list-style-type:square;
+    background-color:orangered;
+    margin: 15px 0px;
+    padding: 5px;
+    width: 70%;
+    float: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: paleturquoise;
+}
+ol.d li{
+    list-style-type:square;
+    background-color:darkblue;
+    margin: 10px 0px;
+    padding: 5px;
+    width: 60%;
+    float: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+ol.e li{
+    list-style-type:square;
+    background-color:darkblue;
+    margin: 10px 0px;
+    padding: 5px;
+    width: 60%;
+    float: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+ol.f li{
+    list-style-type:square;
+    background-color:orangered;
+    margin: 10px 0px;
+    padding: 5px;
+    width: 60%;
+    float: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: paleturquoise;
+}
+ol.b li{
+    list-style-type:square;
+    background-color:orangered;
+    margin: 10px 0px;
+    padding: 5px;
+    width: 80%;
+    float: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: paleturquoise;
+}
+ol.c li{
+    list-style-type:square;
+    background-color:orangered;
+    margin: 15px 0px;
+    padding: 5px;
+    width: 60%;
+    float: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: paleturquoise;
+}
+ol.g li{
+    list-style-type:square;
+    background-color:orangered;
+    margin: 15px 0px;
+    padding: 5px;
+    width: 60%;
+    float: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: paleturquoise;
+}
+.columnfour{
+    float: right;
+    width: 60%;
+    padding: 5px;
+    margin-block-start: 70px;
+    margin: 40px;
+    background-color: lightpink;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.columnfive{
+    float: right;
+    width: 60%;
+    padding: 5px;
+    margin-block-start: 70px;
+    margin: 70px;
+    background-color: lightpink;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    width: 70%;
+    padding: 5px;
+    margin: 5px;
+    height: 5px;
+}
+/* Kode Css Footer */
+.footer{
+    width: 1280;
+    position:relative;
+    bottom: 0px;
+}
